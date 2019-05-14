@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Roboto:400,700');
+
+body {
+	background-color: #EFEBCE;	
+	font-family: 'Roboto','Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 1px;
+	color: #BB8588;
+	font-weight: bold;
+	font-size: 60px;
+	font-family: 'Roboto','Helvetica', 'Arial', sans-serif;
+}
+
+h2{
+	color: #A3A380;
+	text-align: center;
+	font-weight: bold;
+}
+
+ul{
+	list-style: none;
+	display:flex;
+	justify-content: space-around;
+
+}
+
+li {
+	background-color: white;
+	padding:30px;
+	font-size: 30px;
+	width:15%;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+li:hover {
+	opacity: 0.5;
+}
+
+img {
+	max-width: 200px;
+	height: 200px;
+}
+
+#firstList{
+}
+
+.fish {
+	color:orange;
+	text-decoration: underline;
+}
+.birds {
+	color:blue;
+	font-style: italic;
+}
+
+.mammals {
+	color:red;
+	font-weight: bold;
+}
